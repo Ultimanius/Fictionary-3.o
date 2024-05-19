@@ -1,0 +1,117 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <body>
+      <nav class="navbar">
+        <button class="nav-button">Play</button>
+        <button class="nav-button">Rules</button>
+        <button class="nav-button">Leaderboard</button>
+        <button class="nav-button">Sign Up</button>
+    </nav>
+    <div class="hero">
+        <h1>FICTIONARY</h1>
+        <button>Sign Up</button>
+    </div>
+  </div>
+  <footer class="footer">
+    <a target="_blank" href="https://www.youtube.com/channel/UCx7ixKEIib3ikQd_QBEY9Qw">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a target="_blank" href="https://m.facebook.com/debatingsociety3103.nitd/">
+      <i class="fab fa-facebook-f"></i></a>
+    <a target="_blank" href="https://www.debsocnitdgp.in/" class="debsoc-icon">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACUCAMAAAAAoYNxAAAAYFBMVEX///8AAAC4uLiAgICdnZ12dnbCwsK/v7+1tbVUVFTIyMjv7+8gICDr6+v39/eOjo5HR0esrKxra2vl5eVMTEyUlJQSEhI/Pz/Z2dkmJiajo6M2NjZZWVnQ0NBeXl4uLi6kgnouAAAD70lEQVR4nO2ca3ejIBBARc3LBxYf0Zho/v+/LOnaFg3gZJsOpGfut1Vc76GExzgQBARBEAThC1VTaa/zuEM2gVJdWKm9UbDTgOwCY2CMRdo7vbwTIttA2BqNpfOJsZij6gDYSePGeDfMGOsRbUAU7CgstzvG6hRNBkTPNvZfWF6cW6+cYxavlunOlxxBBUgPaqjV6aLvtx0AM5bOmTdto2GwkSJ9Y740jYYloHJS2Z9aJuXfh5QxKF5PWbwBO7nNwZ2yiFV60ccgerG8gjeNrtmTqNGUD89SPpAyKZMyKXuo/IL9chM9CXPogyBQEJs1SjkfHcrVYrag2HPZrPcF+yDYr5faoClH6zJyJhyulzKFd0mZlEn5ecpHD5XbMurVywvloo/K+t7blXI29mHSpUGQmJWTIEirIezL1gPlIk8/v49tzcrbqQhP0965shLcAigH87+FG2VFBqasliJlUiZlUiZl98oJyz5hxWso8/wbvFSYHym7gZQxIGUMHld2no74uHKp/dzawD5+u1E24CYm9yNlnwdsUiZlUiZlUnavDPgi5ZtytdexKzxWNuBz5NOAz0EBA6QMhJQx+LPKQvnn7jWU/07kk5T/Q9nQSn1WVt4KU1anRXipfYPy1vN3WBukzM/KZcStw8pblZoCKcfqs4g7INTMivNXiBCiPKiVzPCMZ+2RjY8kN4zqk3i/vo/ts5o3A5TnySeYu+D5PB9RQJX72WMb1L3ZyTxPSMCU5wvYI150+QYvZ2/P9hDlXTZ7qETeAN+dZq//qOcVZTF/4op+nsNCgAluV+bLBxzs2C8XChG3JJ0NvFgUH/GNg6pdSJSW1L5mmfLcOtlGPlyZmZWY3NXRV7XE4rSi7OyID4uUXdnhoSSxTcqsvHdnLEcHQ5avTfm4W/9/f5PQ4GxRdn5UTZKZvPTKmfOkATl0a/elmZTfvDh2KdXluRuUN77sd2+gyh5tltufIMonp53bkvyyrnzw5nSaieJqV77iZR6CGUab8ug8u0gHj83KjXenhk1Uo17Zp3OhVLpe9rmivVdu5RqrEr50yAp8ZKUc2bpiqVzIq9vav8PZ/g0n19s6e6hV5duhKry4zZ28GKlVphVKO/CPOp2UazkH4skUOfTsF9h99cqRrE0uWlnf+1sjDrZfC1W8PD4IqbKAPt+iipXsI6rqFrxT5qZ4W5gBzBdUVzG1gTSezT2Qg3BW7pbabZhznovlZMlN8EJHrgloXKJIc4qG/uxSBwA2v3vWnDUTfCM+rPzuosYr1B40Z26LzGnwoDkvY7arrB8J+ss80pAnHPfOxgCXhZPbCVK3287YAQi9m9MRBEEQP+EdV+s7ZwsfvUIAAAAASUVORK5CYII=">
+    </a>
+    <a target="_blank" href="https://www.instagram.com/debsocnitd/">
+      <i class="fab fa-instagram"></i></a>
+    <a target="_blank" href="https://in.linkedin.com/company/debating-society-nit-durgapur">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </footer>
+</body>
+</html>
+<style>
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/originals/41/0d/46/410d4685106b1093d1d297788a755984.jpg"); /* Replace "path/to/your/image.jpg" with the path to your image file */
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-button { 
+    padding: 1rem 2rem;
+    background-color: transparent; 
+    border: 1px solid #fff; 
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.nav-button:hover { 
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #007bff;
+    transition: 0.5s; 
+}
+.hero {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 4rem;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.3); 
+}
+
+.hero h1:hover {
+    text-shadow: 0 0 5px rgba(255,255,255,0.8); 
+}
+
+.hero button {
+  padding: 1rem 2rem;
+  background-image: url("https://i.pinimg.com/originals/41/0d/46/410d4685106b1093d1d297788a755984.jpg"); 
+  mix-blend-mode: difference; 
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .footer a {
+      display: inline-block;
+      margin: 0 1rem;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    .footer .debsoc-icon img {
+         margin-bottom: -0.3rem;
+         back
+         
+    }
+  .footer img {
+      width: 30px;
+      height: 30px;
+      filter: invert();
+    }
+    </style>
